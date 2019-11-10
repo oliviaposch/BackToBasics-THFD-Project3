@@ -65,6 +65,9 @@ form p {
     border-bottom: 4px solid #545454;
     margin-bottom: 3px;
 }
+input::placeholder{
+    text-align: right;
+} 
 form h2, form p, footer{
     text-align: center;
 }
@@ -109,7 +112,7 @@ textarea, select{
 input[type="text"], 
 input[type="email"], 
 input[type="tel"]{
-    text-align: right;
+    /* text-align: right; */
     transition: background 0.5s ease-out;
 }
 #zipcode{
